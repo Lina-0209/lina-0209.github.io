@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Logic, spikes and light as ideas for computation</title>
+  <desc id="desc">An original conceptual illustration of a Boolean logic gate, a temporal spike waveform and a light beam converging on a learnable computation symbol. The optical motif represents a research direction rather than fabricated or validated hardware.</desc>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 23h126a12 12 0 0 1 12 12v29a12 12 0 0 1-12 12H24" stroke="#3d6684" opacity=".17"/>
+    <path d="M25 45h27m-27 17h27" stroke="#3d6684"/>
+    <circle cx="27" cy="45" r="3" fill="#f2cc57" stroke="#b45d39"/>
+    <circle cx="27" cy="62" r="3" fill="#fffdf7" stroke="#3d6684"/>
+    <path d="M53 36h23c26 0 26 35 0 35H53Z" fill="#3d6684" fill-opacity=".08" stroke="#3d6684"/>
+    <path d="M96 54h38" stroke="#3d6684"/>
+    <circle cx="135" cy="54" r="4" fill="#3d6684" fill-opacity=".15" stroke="#3d6684"/>
+    <path d="M24 94h126a12 12 0 0 1 12 12v28a12 12 0 0 1-12 12H24" stroke="#b45d39" opacity=".17"/>
+    <path d="M25 132h118" stroke="#b45d39" opacity=".2"/>
+    <path d="M26 124h22l7-5 7 17 8-36 9 30 7-6h20l7-4 7 15 8-29 8 18h8" stroke="#b45d39"/>
+    <circle cx="143" cy="124" r="3" fill="#f2cc57" stroke="#b45d39"/>
+    <path d="M24 165h126a12 12 0 0 1 12 12v24a12 12 0 0 1-12 12H24" stroke="#36735a" opacity=".17"/>
+    <path d="m27 189 61-18v36Z" fill="#f2cc57" fill-opacity=".22"/>
+    <path d="m27 189 60-16m-60 16 60 16M27 189h60" stroke="#b45d39" opacity=".6"/>
+    <path d="M87 169c11 10 11 30 0 40-10-10-10-30 0-40Z" fill="#3d6684" fill-opacity=".08" stroke="#3d6684"/>
+    <path d="M92 179c16 0 22 10 43 10m-43 10c16 0 22-10 43-10m-43 0h43" stroke="#36735a"/>
+    <circle cx="138" cy="189" r="4" fill="#36735a" fill-opacity=".15" stroke="#36735a"/>
+    <path d="M177 54c26 0 24 61 58 61m-58 9h58m-58 65c26 0 24-74 58-74" stroke="#3d6684" opacity=".55"/>
+    <circle cx="234" cy="115" r="5" fill="#f2cc57" stroke="#b45d39"/>
+    <path d="M240 115h18m-6-6 6 6-6 6" stroke="#36735a"/>
+    <rect x="272" y="72" width="89" height="89" rx="11" fill="#fffdf7" stroke="#36735a"/>
+    <rect x="282" y="82" width="69" height="69" rx="6" fill="#36735a" fill-opacity=".06" stroke="#36735a" stroke-opacity=".25"/>
+    <path d="M285 62v10m17-10v10m28-10v10m17-10v10M285 161v10m17-10v10m28-10v10m17-10v10M262 85h10m-10 20h10m-10 24h10m-10 20h10m89-64h10m-10 20h10m-10 24h10m-10 20h10" stroke="#36735a"/>
+    <path d="m295 96 21 20 21-20m-42 40 21-20 21 20m-42-40v40m42-40v40m-42-40h42m-42 40h42" stroke="#36735a" opacity=".45"/>
+    <circle cx="295" cy="96" r="5" fill="#fffdf7" stroke="#36735a"/>
+    <circle cx="337" cy="96" r="5" fill="#f2cc57" stroke="#b45d39"/>
+    <circle cx="316" cy="116" r="6" fill="#36735a" fill-opacity=".2" stroke="#36735a"/>
+    <circle cx="295" cy="136" r="5" fill="#f2cc57" stroke="#b45d39"/>
+    <circle cx="337" cy="136" r="5" fill="#fffdf7" stroke="#36735a"/>
+    <path d="M378 139c17-5 17-21 17-37V60c0-17-10-25-27-25h-81c-16 0-24 7-24 20m-6-6 6 6 6-6" stroke="#b45d39" stroke-dasharray="4 5" opacity=".6"/>
+    <path d="M280 194h75" stroke="#36735a" opacity=".18"/>
+    <circle cx="243" cy="187" r="3" fill="#f2cc57"/>
+    <path d="m376 185 5 5m0-5-5 5" stroke="#3d6684" opacity=".4"/>
+  </g>
+</svg>

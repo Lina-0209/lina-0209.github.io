@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Multimodal understanding for useful assistance</title>
+  <desc id="desc">An original conceptual illustration of a first-person video scene, spatial outlines and a question leading to an answer for a person. It does not depict experimental results.</desc>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 177h204M44 192h161" stroke="#36735a" opacity=".16"/>
+    <rect x="22" y="44" width="205" height="126" rx="13" fill="#fffdf7" stroke="#3d6684"/>
+    <path d="M23 70h203" stroke="#3d6684" opacity=".3"/>
+    <circle cx="37" cy="57" r="3" fill="#b8463b" stroke="#b8463b"/>
+    <rect x="49" y="51" width="15" height="12" rx="3" stroke="#3d6684"/>
+    <path d="m64 54 6-3v12l-6-3" fill="#3d6684" fill-opacity=".12" stroke="#3d6684"/>
+    <path d="M34 158 89 102h66l60 56M89 102V80m66 22V80M59 158l42-56m88 56-45-56M34 133h181" stroke="#3d6684" opacity=".25"/>
+    <path d="M83 87h63v66H83z" stroke="#36735a" stroke-dasharray="5 5"/>
+    <path d="M79 92v-9h10m51 0h10v9m0 55v10h-10m-51 0H79v-10" stroke="#36735a"/>
+    <circle cx="115" cy="105" r="10" fill="#f2cc57" fill-opacity=".45" stroke="#b45d39"/>
+    <path d="M102 142v-15c0-8 6-13 13-13s13 5 13 13v15m-19-1-3 14m15-14 3 14m-21-30-8 13m32-13 8 13" stroke="#b45d39"/>
+    <path d="m44 115 17-8 17 8v28l-17 8-17-8z" fill="#3d6684" fill-opacity=".07" stroke="#3d6684"/>
+    <path d="m44 115 17 8 17-8m-17 8v28" stroke="#3d6684" opacity=".6"/>
+    <path d="m175 143 17-17m-17 0 17 17" stroke="#36735a" opacity=".3"/>
+    <path d="M174 30h54a11 11 0 0 1 11 11v22a11 11 0 0 1-11 11h-17l-13 12 2-12h-26a11 11 0 0 1-11-11V41a11 11 0 0 1 11-11Z" fill="#f2cc57" stroke="#b45d39"/>
+    <path d="M193 45c0-7 15-7 15 0 0 5-7 5-7 11" stroke="#b45d39"/>
+    <circle cx="201" cy="63" r="1.4" fill="#b45d39" stroke="#b45d39"/>
+    <path d="M242 122h32m-7-7 7 7-7 7" stroke="#36735a"/>
+    <circle cx="327" cy="125" r="18" fill="#f2cc57" fill-opacity=".3" stroke="#36735a"/>
+    <path d="M316 112c4-7 19-8 25 5m-42 67v-16c0-16 12-25 28-25s28 9 28 25v16" fill="#36735a" fill-opacity=".08" stroke="#36735a"/>
+    <path d="M314 169v15m26-15v15" stroke="#36735a"/>
+    <path d="M283 36h98a12 12 0 0 1 12 12v30a12 12 0 0 1-12 12h-35l-14 12 2-12h-51a12 12 0 0 1-12-12V48a12 12 0 0 1 12-12Z" fill="#fffdf7" stroke="#36735a"/>
+    <circle cx="293" cy="63" r="11" fill="#36735a" fill-opacity=".1" stroke="#36735a"/>
+    <path d="m288 63 4 4 7-8M316 56h53m-53 13h37" stroke="#36735a"/>
+    <path d="M291 199h73" stroke="#36735a" opacity=".18"/>
+    <circle cx="256" cy="167" r="4" fill="#f2cc57"/>
+    <circle cx="370" cy="119" r="3" fill="#3d6684" opacity=".4"/>
+  </g>
+</svg>
