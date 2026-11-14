@@ -24,14 +24,14 @@
         dialogImage.hidden = true;
         if (figureError) {
           figureError.hidden = false;
-          figureError.textContent = root.lang.startsWith('zh') ? '图片预览暂时无法加载，请打开原文件查看。' : 'The preview could not load. Open the original file to view it.';
+          figureError.textContent = 'The preview could not load. Open the original file to view it.';
         }
       });
       const showFigure = index => {
         galleryIndex = (index + galleryLinks.length) % galleryLinks.length;
         const link = galleryLinks[galleryIndex];
         const sourceImage = link.querySelector('img');
-        const isChinese = root.lang.toLowerCase().startsWith('zh');
+        
         dialogImage.hidden = false;
         if (figureError) figureError.hidden = true;
         // Hidden lazy thumbnails may retain stale currentSrc values; the link is the canonical gallery resource.
@@ -40,18 +40,18 @@
           const pdf = link.dataset.figurePdf;
           originalLink.href = pdf || link.href;
           originalLink.hidden = !pdf;
-          originalLink.textContent = isChinese ? '打开矢量 PDF ↗' : 'Open vector PDF ↗';
+          originalLink.textContent = 'Open vector PDF ↗';
         }
         dialogImage.alt = sourceImage.alt;
         if (dialogCaption) {
-          dialogCaption.textContent = link.getAttribute(isChinese ? 'data-caption-zh' : 'data-caption-en') || sourceImage.alt;
+          dialogCaption.textContent = link.getAttribute('data-caption-en') || sourceImage.alt;
         }
         const hasGallery = galleryLinks.length > 1;
         dialog.toggleAttribute('data-gallery-active', hasGallery);
         if (galleryControls) galleryControls.hidden = !hasGallery;
         if (galleryCount) galleryCount.textContent = `${galleryIndex + 1} / ${galleryLinks.length}`;
-        if (previousButton) previousButton.setAttribute('aria-label', isChinese ? '上一张' : 'Previous image');
-        if (nextButton) nextButton.setAttribute('aria-label', isChinese ? '下一张' : 'Next image');
+        if (previousButton) previousButton.setAttribute('aria-label', 'Previous image');
+        if (nextButton) nextButton.setAttribute('aria-label', 'Next image');
       };
 
       document.addEventListener('click', event => {

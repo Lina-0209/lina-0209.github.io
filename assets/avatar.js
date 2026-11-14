@@ -25,16 +25,11 @@
     let greetingVisible = false;
     let dismissed = false;
 
-    const isChinese = () => root.lang.toLowerCase().startsWith('zh');
     const syncLanguage = () => {
-      button.setAttribute('aria-label', isChinese()
-        ? '和 Nan Li 的小人打个招呼'
-        : 'Say hello to Nan Li’s avatar');
-      dismissButton?.setAttribute('aria-label', isChinese() ? '收起小人' : 'Hide character');
+      button.setAttribute('aria-label', 'Say hello to Nan Li’s avatar');
+      dismissButton?.setAttribute('aria-label', 'Hide character');
       if (greeting && greetingVisible) {
-        greeting.textContent = isChinese()
-          ? '你好，我是 Nan Li。欢迎来到我的研究主页！'
-          : 'Hi, I’m Nan Li. Welcome to my research homepage!';
+        greeting.textContent = 'Hi, I’m Nan Li. Welcome to my research homepage!';
       }
     };
 
@@ -160,11 +155,6 @@
     });
     window.addEventListener('pageshow', scheduleWave);
 
-    // The homepage language toggle changes <html lang> in place.
-    if (typeof window.MutationObserver === 'function') {
-      const languageObserver = new MutationObserver(syncLanguage);
-      languageObserver.observe(root, { attributes: true, attributeFilter: ['lang'] });
-    }
     if (greeting) {
       greeting.setAttribute('role', 'status');
       greeting.setAttribute('aria-live', 'polite');

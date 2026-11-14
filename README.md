@@ -14,10 +14,10 @@ The `.nojekyll` file keeps GitHub Pages from processing these static files with 
 ## Updating
 
 - `index.html`: English content and page structure.
-- `assets/site.js`: Chinese translations and language switching.
+- `assets/site.js`: page interactions and email copying.
 - `assets/compact.css`: compact responsive layout.
 - `assets/interactions.js`: image galleries.
 
 For a local preview, run `python3 -m http.server 8000` in this directory and open http://localhost:8000/.
 
-This export preserves the existing homepage, bilingual content, image galleries, avatar interactions. The homepage does not host a CV.
+This export preserves the existing homepage, English content, image galleries, avatar interactions. The homepage does not host a CV.
