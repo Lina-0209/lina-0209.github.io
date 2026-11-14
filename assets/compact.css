@@ -52,3 +52,6 @@ html[lang="zh-CN"] .research-line{font-size:27px;line-height:1.5;letter-spacing:
 
 /* Research focus: emphasized inline themes above the introduction. */
 .interest-focus{margin:14px 0 12px;font-size:18px;line-height:1.6;letter-spacing:-.015em;color:#1d1d1f}.interest-focus strong{font-weight:650}@media(max-width:600px){.interest-focus{font-size:16px;line-height:1.65;margin:12px 0 10px}}
+
+/* Official social marks, with equally sized circular link targets. */
+.profile-links.profile-social-links{align-items:center;gap:12px}.profile-links .social-icon-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;padding:0;border:1px solid #dce2e8;border-radius:50%;background:#fff;box-shadow:none;text-decoration:none;transition:background .2s,border-color .2s}.profile-links .social-icon-link:hover{background:#f5f7fa;border-color:#a8b8c8;text-decoration:none}.profile-links .social-icon-link:focus-visible{outline:2px solid #0071e3;outline-offset:3px}.profile-links .social-icon-link img{display:block;width:28px;height:28px;object-fit:contain;flex:none}.profile-links .social-icon-link[data-linkedin] img{width:33px}
